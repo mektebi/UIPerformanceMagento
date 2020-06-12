@@ -1,0 +1,1 @@
+locust -f tests/profile.py  -c 2 -r 1 --no-web --csv=report -t 5m
